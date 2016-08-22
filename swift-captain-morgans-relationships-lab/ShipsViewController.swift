@@ -10,7 +10,7 @@ import UIKit
 
 class ShipsViewController: UITableViewController {
 	
-	var pirate: Pirate?
+	var pirate: Pirate!
 	var shipsArray = [Ship]()
 	
 	override func viewDidLoad() {

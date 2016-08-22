@@ -32,7 +32,6 @@ class DataStore {
 		}
 	}
 	
-	
 	func fetchData () {
 		
 		print("fetching data")

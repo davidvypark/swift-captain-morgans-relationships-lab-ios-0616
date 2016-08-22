@@ -14,7 +14,7 @@ class ShipDetailViewController: UIViewController {
 	@IBOutlet weak var pirateNameLabel: UILabel!
 	@IBOutlet weak var propulsionTypeLabel: UILabel!
 	
-	var ship: Ship?
+	var ship: Ship!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
